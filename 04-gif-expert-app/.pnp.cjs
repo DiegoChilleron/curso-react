@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:7.25.4"],\
           ["@babel/preset-react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:7.24.7"],\
           ["@eslint/js", "npm:9.9.1"],\
+          ["@testing-library/dom", "npm:10.4.0"],\
           ["@testing-library/react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:16.0.1"],\
           ["@types/jest", "npm:29.5.12"],\
           ["@types/react", "npm:18.3.5"],\
@@ -43,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.9.0"],\
           ["jest", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:29.7.0"],\
+          ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:18.3.1"],\
           ["vite", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:5.4.2"],\
@@ -4164,6 +4166,23 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@testing-library/dom", [\
+      ["npm:10.4.0", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/@testing-library-dom-npm-10.4.0-a0d2ca848e-10c0.zip/node_modules/@testing-library/dom/",\
+        "packageDependencies": [\
+          ["@testing-library/dom", "npm:10.4.0"],\
+          ["@babel/code-frame", "npm:7.24.7"],\
+          ["@babel/runtime", "npm:7.25.6"],\
+          ["@types/aria-query", "npm:5.0.4"],\
+          ["aria-query", "npm:5.3.0"],\
+          ["chalk", "npm:4.1.2"],\
+          ["dom-accessibility-api", "npm:0.5.16"],\
+          ["lz-string", "npm:1.5.0"],\
+          ["pretty-format", "npm:27.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@testing-library/react", [\
       ["npm:16.0.1", {\
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/@testing-library-react-npm-16.0.1-3939518263-10c0.zip/node_modules/@testing-library/react/",\
@@ -4177,7 +4196,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@testing-library/react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:16.0.1"],\
           ["@babel/runtime", "npm:7.25.6"],\
-          ["@testing-library/dom", null],\
+          ["@testing-library/dom", "npm:10.4.0"],\
           ["@types/react", "npm:18.3.5"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/testing-library__dom", null],\
@@ -4200,6 +4219,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-10c0.zip/node_modules/@tootallnate/once/",\
         "packageDependencies": [\
           ["@tootallnate/once", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/aria-query", [\
+      ["npm:5.0.4", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/@types-aria-query-npm-5.0.4-51d2b61619-10c0.zip/node_modules/@types/aria-query/",\
+        "packageDependencies": [\
+          ["@types/aria-query", "npm:5.0.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4618,6 +4646,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/argparse-npm-2.0.1-faff7999e6-10c0.zip/node_modules/argparse/",\
         "packageDependencies": [\
           ["argparse", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["aria-query", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/aria-query-npm-5.3.0-76575ac83b-10c0.zip/node_modules/aria-query/",\
+        "packageDependencies": [\
+          ["aria-query", "npm:5.3.0"],\
+          ["dequal", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5538,6 +5576,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["dequal", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/dequal-npm-2.0.3-53a630c60e-10c0.zip/node_modules/dequal/",\
+        "packageDependencies": [\
+          ["dequal", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["detect-newline", [\
       ["npm:3.1.0", {\
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/detect-newline-npm-3.1.0-6d33fa8d37-10c0.zip/node_modules/detect-newline/",\
@@ -5562,6 +5609,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["doctrine", "npm:2.1.0"],\
           ["esutils", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dom-accessibility-api", [\
+      ["npm:0.5.16", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/dom-accessibility-api-npm-0.5.16-d3e2310666-10c0.zip/node_modules/dom-accessibility-api/",\
+        "packageDependencies": [\
+          ["dom-accessibility-api", "npm:0.5.16"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6438,6 +6494,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:7.25.4"],\
           ["@babel/preset-react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:7.24.7"],\
           ["@eslint/js", "npm:9.9.1"],\
+          ["@testing-library/dom", "npm:10.4.0"],\
           ["@testing-library/react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:16.0.1"],\
           ["@types/jest", "npm:29.5.12"],\
           ["@types/react", "npm:18.3.5"],\
@@ -6451,6 +6508,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.9.0"],\
           ["jest", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:29.7.0"],\
+          ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:18.3.1"],\
           ["vite", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:5.4.2"],\
@@ -8062,6 +8120,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lz-string", [\
+      ["npm:1.5.0", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/lz-string-npm-1.5.0-3860794e30-10c0.zip/node_modules/lz-string/",\
+        "packageDependencies": [\
+          ["lz-string", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["make-dir", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/make-dir-npm-4.0.0-ec3cd921cc-10c0.zip/node_modules/make-dir/",\
@@ -8701,6 +8768,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["pretty-format", [\
+      ["npm:27.5.1", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/pretty-format-npm-27.5.1-cd7d49696f-10c0.zip/node_modules/pretty-format/",\
+        "packageDependencies": [\
+          ["pretty-format", "npm:27.5.1"],\
+          ["ansi-regex", "npm:5.0.1"],\
+          ["ansi-styles", "npm:5.2.0"],\
+          ["react-is", "npm:17.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:29.7.0", {\
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/pretty-format-npm-29.7.0-7d330b2ea2-10c0.zip/node_modules/pretty-format/",\
         "packageDependencies": [\
@@ -8839,6 +8916,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:16.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:17.0.2", {\
+        "packageLocation": "../../../Users/Diego/AppData/Local/Yarn/Berry/cache/react-is-npm-17.0.2-091bbb8db6-10c0.zip/node_modules/react-is/",\
+        "packageDependencies": [\
+          ["react-is", "npm:17.0.2"]\
         ],\
         "linkType": "HARD"\
       }],\
